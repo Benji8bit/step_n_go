@@ -21,4 +21,8 @@ func main() {
 	fmt.Println("cnh1", 100, 200, 300)
 	fmt.Println()
 	fmt.Println("Hello World! ", "hi", 6.9, 7, 8.1, 0, 2, "Lala", true, true, false, "tutu")
+
+	fmt.Println("Здравствуй,")
+	fmt.Println("Иосиф!")
+
 }
