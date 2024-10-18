@@ -25,4 +25,9 @@ func main() {
 	fmt.Println("Здравствуй,")
 	fmt.Println("Иосиф!")
 
+	name := "Олег"
+	age := 25
+	weight := 80.5
+	fmt.Println("Имя:", name, "возраст:", age, "вес:", weight)
+
 }
