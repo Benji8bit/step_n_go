@@ -30,4 +30,6 @@ func main() {
 	weight := 80.5
 	fmt.Println("Имя:", name, "возраст:", age, "вес:", weight)
 
+	//var lastName, firstName, patronymic string
+	//fmt.Scan(&lastName, &firstName, &patronymic)
 }
