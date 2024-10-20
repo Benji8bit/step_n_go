@@ -32,4 +32,8 @@ func main() {
 
 	//var lastName, firstName, patronymic string
 	//fmt.Scan(&lastName, &firstName, &patronymic)
+
+	var name2 string
+	fmt.Scan(&name2)
+	fmt.Println("Привет,", name2)
 }
