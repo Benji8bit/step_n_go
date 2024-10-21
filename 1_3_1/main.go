@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 )
 
 func main() {
@@ -33,7 +35,13 @@ func main() {
 	//var lastName, firstName, patronymic string
 	//fmt.Scan(&lastName, &firstName, &patronymic)
 
-	var name2 string
-	fmt.Scan(&name2)
-	fmt.Println("Привет,", name2)
+	//var name2 string
+	//fmt.Scan(&name2)
+	//fmt.Println("Привет,", name2)
+
+	scanner := bufio.NewScanner(os.Stdin) // создаем копию структуры bufio.Scanner
+	_ = scanner.Scan()                    // на этом месте приложение останавливается и ожидает ввода. Завершением ввода, будет нажатие Enter
+	book := scanner.Text()                //Black Hat Go via Go
+	fmt.Println(book, "- лучшая книга!")
+
 }
