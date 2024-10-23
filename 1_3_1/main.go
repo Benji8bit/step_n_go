@@ -44,14 +44,13 @@ func main() {
 	book := scanner.Text()                //Black Hat Go via Go
 	fmt.Println(book, "- лучшая книга!")
 
-	scanner1 := bufio.NewScanner(os.Stdin)
-	_ = scanner1.Scan()
-	one := scanner1.Text()
+	_ = scanner.Scan()
+	one := scanner.Text()
 
-	_ = scanner1.Scan()
-	two := scanner1.Text()
+	_ = scanner.Scan()
+	two := scanner.Text()
 
-	_ = scanner1.Scan()
+	_ = scanner.Scan()
 	three := scanner.Text()
 
 	fmt.Println(three)
