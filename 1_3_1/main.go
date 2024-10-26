@@ -65,4 +65,12 @@ func main() {
 	var num1 int = 5
 	str1 := strconv.Itoa(num1)
 	fmt.Println(str1 + str1) // вывод 55
+
+	var a1 float64 = 6.6
+	b1 := int(a1)   // приведение (casting) вещественного числа к целому
+	fmt.Println(b1) // Вывод 6
+
+	var a2 int = 6
+	b2 := float64(a2)     // приведение (casting) целого числа к вещественному
+	fmt.Println(b2 + 0.4) // Вывод 6.4
 }
