@@ -73,4 +73,8 @@ func main() {
 	var a2 int = 6
 	b2 := float64(a2)     // приведение (casting) целого числа к вещественному
 	fmt.Println(b2 + 0.4) // Вывод 6.4
+
+	var m int
+	_, _ = fmt.Scan(&m)
+	fmt.Println(m / 1000)
 }
