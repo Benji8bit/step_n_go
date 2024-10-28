@@ -77,4 +77,8 @@ func main() {
 	var m int
 	_, _ = fmt.Scan(&m)
 	fmt.Println(m / 1000)
+
+	var x, y, z int
+	fmt.Scan(&x, &y, &z)
+	fmt.Println(x * y * z)
 }
