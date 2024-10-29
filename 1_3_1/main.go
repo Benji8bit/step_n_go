@@ -81,4 +81,6 @@ func main() {
 	var x, y, z int
 	fmt.Scan(&x, &y, &z)
 	fmt.Println(x * y * z)
+	fmt.Println(x / y)
+	fmt.Println(x % y)
 }
