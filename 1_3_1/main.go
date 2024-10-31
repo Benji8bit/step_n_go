@@ -83,4 +83,8 @@ func main() {
 	fmt.Println(x * y * z)
 	fmt.Println(x / y)
 	fmt.Println(x % y)
+
+	fmt.Println(x)
+	fmt.Println(x + 1)
+	fmt.Println(x + 2)
 }
